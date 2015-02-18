@@ -22,7 +22,7 @@ public class FizzBuzzTest {
    */
 
   @Test
-  public void testFizzBuzz() throws Exception {
+  public void testConvertToFizzBuzz() throws Exception {
     assertEquals("Fizz", FizzBuzz.convertToFizzBuzz(3));
     assertEquals("Buzz", FizzBuzz.convertToFizzBuzz(5));
     assertEquals("FizzBuzz", FizzBuzz.convertToFizzBuzz(15));
