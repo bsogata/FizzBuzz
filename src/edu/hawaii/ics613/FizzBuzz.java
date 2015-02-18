@@ -18,7 +18,7 @@ public class FizzBuzz {
   public static void main(String[] args) {
     // Assuming that "1 to 100" is inclusive
     for (int i = 1; i <= 100; i++) {
-      System.out.format("%d: %s%n", i, fizzBuzz(i));
+      System.out.format("%d: %s%n", i, convertToFizzBuzz(i));
     }
   }
 
@@ -34,7 +34,7 @@ public class FizzBuzz {
    *
    */
 
-  public static String fizzBuzz(int input) {
+  public static String convertToFizzBuzz(int input) {
     String output = Integer.toString(input);
 
     if ((input % 3 == 0) && (input % 5 == 0)) {

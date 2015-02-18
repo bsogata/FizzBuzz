@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 public class FizzBuzzTest {
 
   /**
-   * Tests the fizzBuzz method.
+   * Tests the convertToFizzBuzz method.
    *
    * @throws Exception when there is an error of some kind.
    *
@@ -23,9 +23,9 @@ public class FizzBuzzTest {
 
   @Test
   public void testFizzBuzz() throws Exception {
-    assertEquals("Fizz", FizzBuzz.fizzBuzz(3));
-    assertEquals("Buzz", FizzBuzz.fizzBuzz(5));
-    assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(15));
-    assertEquals("16", FizzBuzz.fizzBuzz(16));
+    assertEquals("Fizz", FizzBuzz.convertToFizzBuzz(3));
+    assertEquals("Buzz", FizzBuzz.convertToFizzBuzz(5));
+    assertEquals("FizzBuzz", FizzBuzz.convertToFizzBuzz(15));
+    assertEquals("16", FizzBuzz.convertToFizzBuzz(16));
   }
 }
